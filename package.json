@@ -1,0 +1,30 @@
+{
+  "name": "knip-storybook-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "knip": "knip",
+    "storybook": "storybook build -c components/storybook -o public/storybook",
+    "storybook:dev": "storybook dev -p 6006 -c components/storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-designs": "7.0.5",
+    "@storybook/addon-essentials": "7.4.6",
+    "@storybook/addon-links": "7.4.6",
+    "@storybook/addon-styling": "1.3.7",
+    "@storybook/blocks": "7.4.6",
+    "@storybook/components": "7.4.6",
+    "@storybook/manager-api": "7.4.6",
+    "@storybook/react": "7.4.6",
+    "@storybook/react-vite": "7.4.6",
+    "@storybook/theming": "7.4.6",
+    "@storybook/types": "7.4.6",
+    "knip": "2.33.1",
+    "storybook": "7.4.6",
+    "typescript": "5.2.2"
+  }
+}
